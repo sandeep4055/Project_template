@@ -1,0 +1,6 @@
+Project Step wise
+
+Step-1:Github repo (Create github repo & add raedme and .gitignore)
+>>>>Create new env (conda create -p venv python==3.8 -y ) , (conda activate venv/ )
+>>>>Setup.py (our ml app as package)
+>>>>requirements.py (pip install -r requirements.txt)
