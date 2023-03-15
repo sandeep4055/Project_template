@@ -1,6 +1,16 @@
 Project Step wise
-
-Step-1:Github repo (Create github repo & add raedme and .gitignore)
+-----------------------------
+Step-1: Github repo (Create github repo & add raedme and .gitignore)
 >>>>Create new env (conda create -p venv python==3.8 -y ) , (conda activate venv/ )
 >>>>Setup.py (our ml app as package)
 >>>>requirements.py (pip install -r requirements.txt)
+
+Step-2:
+src folder >>>> our whole project module stays in this folder
+>>>>src/components create components folder in src
+    >>>>Create __init__,data_ingestion,data_transformation,model_trainer files in components folder
+
+>>>>Create src/pipeline folder (has all the code for train and test pipeline which calls the modules in components  )
+    >>>>Create __init__,train_pipeline,predict_pipeline files
+    
+>>>>create logger,exception,utils files in src/ folder
