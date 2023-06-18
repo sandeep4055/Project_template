@@ -7,10 +7,14 @@ Step-1: Github repo (Create github repo & add raedme and .gitignore)
 
 Step-2:
 src folder >>>> our whole project module stays in this folder
->>>>src/components create components folder in src
+>>>>src/components create components folder in src (componenets are all the modules that are used in other scripts)
     >>>>Create __init__,data_ingestion,data_transformation,model_trainer files in components folder
 
 >>>>Create src/pipeline folder (has all the code for train and test pipeline which calls the modules in components  )
     >>>>Create __init__,train_pipeline,predict_pipeline files
     
 >>>>create logger,exception,utils files in src/ folder
+
+>>>> Create dataingestion pipeline and also add .artifacts in .gitignore
+
+
